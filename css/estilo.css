@@ -7,7 +7,7 @@
 body {
 	font-size: 1em;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	background: #e6e6e6;
+	background: #000000e8;
 }
 
 /*
@@ -41,12 +41,13 @@ body {
 
 .postagem{
 	padding: 20px;
+	color:white;
 	margin-bottom: 20px;
-	background: white;
+	background: rgb(141, 141, 141);
 }
 
 .conteudo-lateral {
-	background: white;
+	background: rgb(141, 141, 141)white;
 	padding: 10px;
 	margin-bottom: 20px;
 }
@@ -99,7 +100,7 @@ h1 {
 }
 
 h2 {
-	color: #f7b600;
+	color: #000000;
 }
 
 h3 {
@@ -115,13 +116,19 @@ h3 {
 .data-postagem {
 	font-size: 0.8em;
 	border-bottom: 1px solid #f4f4f4;
+	padding: 20px;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 	display: block;
 }
 
+iframe{
+	padding: 20px;
+}
 
-
+.logo{
+	width: 50px;
+}
 
 
 
