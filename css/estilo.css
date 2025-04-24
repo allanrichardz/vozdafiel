@@ -131,5 +131,41 @@ iframe{
 	width: 50px;
 }
 
+.corinthians-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-family: "Trebuchet MS", Helvetica, sans-serif; /* mesma fonte do site */
+	background-color: #2b2b2b; /* tom intermediário pro fundo da tabela */
+	color: #fff;
+	text-align: center;
+	border: 1px solid #555;
+	margin-top: 20px;
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* leve destaque */
+  }
+  
+  .corinthians-table th {
+	background-color: #000;
+	color: rgb(141, 141, 141);
+	padding: 10px;
+	font-size: 1.05em;
+	text-transform: uppercase;
+	border-bottom: 2px solid rgb(141, 141, 141);
+  }
+  
+  .corinthians-table td {
+	padding: 10px;
+	border: 1px solid #444;
+  }
+  
+  .corinthians-table tr:nth-child(even) {
+	background-color: #1e1e1e;
+  }
+  
+  .corinthians-table tr:hover {
+	background-color: #333;
+	transition: background-color 0.3s ease;
+  }
+  
+  
 
 
